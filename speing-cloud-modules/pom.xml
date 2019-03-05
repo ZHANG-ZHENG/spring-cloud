@@ -6,11 +6,11 @@
   <packaging>pom</packaging>
 
 	<modules>  
-		<module>spring-cloud-parent</module>
-		<module>spring-cloud-eureka</module>
-		<module>spring-cloud-zuul</module>
-		<module>spring-cloud-provider</module>
-		<module>spring-cloud-consumer</module>
-		<module>spring-cloud-demo</module>
+		<module>../spring-cloud-parent</module>
+		<module>../spring-cloud-eureka</module>
+		<module>../spring-cloud-zuul</module>
+		<module>../spring-cloud-provider</module>
+		<module>../spring-cloud-consumer</module>
+		<module>../spring-cloud-demo</module>
     </modules>  
 </project>

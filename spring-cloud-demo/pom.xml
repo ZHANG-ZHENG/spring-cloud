@@ -8,13 +8,11 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.zz.test</groupId>
-	<artifactId>spring-boot-study-demo</artifactId>
+	<artifactId>spring-cloud-demo</artifactId>
 	<version>1.0.0</version>
-	<description>Demo spring-boot-test-master</description>
 
 	<properties>
 		<java.version>1.8</java.version>
-		<druid.version>1.0.5</druid.version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 	</properties>
