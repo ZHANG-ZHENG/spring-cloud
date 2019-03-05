@@ -1,0 +1,14 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.zz.test</groupId>
+  <artifactId>spring-boot-study-parent</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>pom</packaging>
+
+	<modules>  
+		<module>spring-boot-study-base</module>  
+		<module>spring-boot-study-config</module>
+		<module>spring-boot-study-junit</module>
+		<module>study03</module>
+    </modules>  
+</project>
