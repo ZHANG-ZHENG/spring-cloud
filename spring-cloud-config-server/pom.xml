@@ -9,7 +9,7 @@
 	</parent>
 	
 	<groupId>com.zz.test</groupId>
-	<artifactId>spring-cloud-demo</artifactId>
+	<artifactId>spring-cloud-config-server</artifactId>
 	<version>1.0.0</version>
 
 	<properties>
@@ -23,6 +23,16 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
+		<dependency>
+        	<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+    	</dependency>
+    	<dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-config-server</artifactId>
+        </dependency>		
+		
+		
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-devtools</artifactId>

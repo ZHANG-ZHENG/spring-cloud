@@ -12,5 +12,7 @@
 		<module>../spring-cloud-provider</module>
 		<module>../spring-cloud-consumer</module>
 		<module>../spring-cloud-demo</module>
+		<module>../spring-cloud-config-server</module>
+		<module>../spring-cloud-config-client</module>
     </modules>  
 </project>
