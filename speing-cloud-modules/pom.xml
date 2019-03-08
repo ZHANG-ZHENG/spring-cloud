@@ -10,7 +10,8 @@
 		<module>../spring-cloud-eureka</module>
 		<module>../spring-cloud-zuul</module>
 		<module>../spring-cloud-provider</module>
-		<module>../spring-cloud-consumer</module>
+		<module>../spring-cloud-consumer-ribbon</module>
+		<module>../spring-cloud-consumer-feign</module>
 		<module>../spring-cloud-demo</module>
 		<module>../spring-cloud-config-server</module>
 		<module>../spring-cloud-config-client</module>

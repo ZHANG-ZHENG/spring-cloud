@@ -7,8 +7,7 @@ import java.util.Map;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
-import org.springframework.cloud.client.ServiceInstance;
-import org.springframework.cloud.client.loadbalancer.LoadBalancerClient;
+
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -26,13 +25,13 @@ import org.springframework.web.client.RestTemplate;
 @RequestMapping("/test")
 public class TestController{
 
-    @Value("${service.info}")
-    private String info;
-	
+	@Autowired 
+	private TestFeignService testFeignService;
+    
 	@RequestMapping("/test")
 	public String test() {
 
-		return "服务器 "+info;
+		return testFeignService.getProviderTest() + " myinfo";
 	}
 
 	
