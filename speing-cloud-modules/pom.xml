@@ -15,5 +15,6 @@
 		<module>../spring-cloud-demo</module>
 		<module>../spring-cloud-config-server</module>
 		<module>../spring-cloud-config-client</module>
+		<module>../spring-cloud-netty</module>
     </modules>  
 </project>
